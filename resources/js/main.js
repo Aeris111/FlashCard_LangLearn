@@ -77,7 +77,7 @@ function resetCurrent(index) {
 // Build the next card
 function buildNextCard() {
   front.innerHTML = `<p>${prompts[current].prompt}</p>`;
-  back.innerHTML = `<p>${prompts[current].answer}</p><p><a href="${prompts[current].link}" target="_blank">reference</a></p>`;
+  back.innerHTML = `<p>${prompts[current].answer}</p><p><a href="${prompts[current].link}" target="_blank">reference</a></p><p><a href="${prompts[current - 2].link}" target="_blank">reference</a></p><p>${prompts[current - 2].image}</p>`;
   count.innerHTML = `<p>${current + 1} / ${prompts.length}</p>`;
   current++;
 }
@@ -130,7 +130,7 @@ function getPrevCard() {
 // Build the previous card
 function buildPrevCard() {
   front.innerHTML = `<p>${prompts[current - 2].prompt}</p>`;
-  back.innerHTML = `<p>${prompts[current - 2].answer}</p><p><a href="${prompts[current - 2].link}" target="_blank">reference</a></p>`;
+  back.innerHTML = `<p>${prompts[current - 2].answer}</p><p><a href="${prompts[current - 2].link}" target="_blank">reference</a></p><p>${prompts[current - 2].image}</p>`;
   count.innerHTML = `<p>${current - 1} / ${prompts.length}</p>`;
   current--;
 }
