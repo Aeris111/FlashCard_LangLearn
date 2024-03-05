@@ -6,9 +6,10 @@
 		"image":"https://usapple.org/wp-content/uploads/2019/11/feature-image-apple-stages.jpg"
 	},
     {
-		"prompt": "This is the second question",
+		"prompt": "There are many products in the ___________.",
 		"answer": "This is the answer.",
-		"link": "https://facebook.com"
+		"link": "https://facebook.com",
+		"image":"https://usapple.org/wp-content/uploads/2019/11/feature-image-apple-stages.jpg"
 	},
     {
 		"prompt": "This is the second question",
