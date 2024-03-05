@@ -14,16 +14,19 @@
     {
 		"prompt": "This is the second question",
 		"answer": "This is the answer.",
-		"link": "https://facebook.com"
+		"link": "https://facebook.com",
+		"image":""
 	},
     {
 		"prompt": "This is the second question",
 		"answer": "This is the answer.",
-		"link": "https://facebook.com"
+		"link": "https://facebook.com",
+		"image":""
 	},
     {
 		"prompt": "This is the second question",
 		"answer": "This is the answer.",
-		"link": "https://facebook.com"
+		"link": "https://facebook.com",
+		"image":""
 	}
 ]
