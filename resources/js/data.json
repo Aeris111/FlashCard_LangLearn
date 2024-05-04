@@ -1,35 +1,5 @@
 [
     {
-		"prompt": "I want to buy an apple in the ___________.",
-		"answer": "Supermarket",
-		"link": "https://google.com",
-		"image":"https://usapple.org/wp-content/uploads/2019/11/feature-image-apple-stages.jpg"
-	},
-    {
-		"prompt": "There are many products in the ___________.",
-		"answer": "This is the answer.",
-		"link": "https://facebook.com",
-		"image":"https://usapple.org/wp-content/uploads/2019/11/feature-image-apple-stages.jpg"
-	},
-    {
-		"prompt": "This is the second question",
-		"answer": "This is the answer.",
-		"link": "https://facebook.com",
-		"image":""
-	},
-    {
-		"prompt": "This is the second question",
-		"answer": "This is the answer.",
-		"link": "https://facebook.com",
-		"image":""
-	},
-    {
-		"prompt": "This is the second question",
-		"answer": "This is the answer.",
-		"link": "https://facebook.com",
-		"image":""
-	}
-    {
 		"prompt": "What is the full name of <span>EdUHK</span>",
 		"answer": "The Education University of Hong Kong",
 		"link": "https://eduhk.hk"
