@@ -76,10 +76,10 @@ footer p {
 #content {
   padding-top: 48px;
   flex: 1;
-  display: inline-block;
+  display: flex;
   flex-direction: column;
   align-items: center;
-
+  
 }
 
 #flashcards {
@@ -156,6 +156,7 @@ li.active-link div::before {
   justify-content: center;
   align-items: center;
   backface-visibility: hidden;
+  display: inline-block;
 }
 
 .facing span {
