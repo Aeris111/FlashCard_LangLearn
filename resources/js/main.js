@@ -101,7 +101,7 @@ function buildCard(index) {
   <h1 class='card_number'>Q.${question_number}</h1>
   <div class='line'><p class='prompt'>${note.prompt}</p></div>
   <p class='answer'>${note.answer}</p>
-  <p class='reference'><a href="${note.link}" target="_blank">reference</a></p>
+  <p class='reference'><a href="${note.link}" target="_blank">Definition</a></p>
   <div class='line'>${Buttonwrap(prefix + '_good', '<span class="emoji_button">👌</span>')} ← <b>${Counter('counter_good', prefix + '_good')}</b></div>
   <div class='line'>${Buttonwrap(prefix + '_bad', '<span class="emoji_button">😡</span>')} ← <b>${Counter('counter_bad', prefix + '_bad')}</b></div>
   `;
