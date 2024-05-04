@@ -327,7 +327,7 @@ li.active-link div::before {
     width: 24px;
     margin-top: 45px;
   }
-  img {
+  .img {
     width: 200px;
     height: auto;
   }
