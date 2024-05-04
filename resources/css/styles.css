@@ -156,7 +156,6 @@ li.active-link div::before {
   justify-content: center;
   align-items: center;
   backface-visibility: hidden;
-  display: inline-block;
 }
 
 .facing span {
