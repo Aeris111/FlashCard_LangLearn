@@ -94,7 +94,7 @@ function buildCard(index) {
   front.innerHTML = `
   <h1 class='card_number'>Q.${question_number}</h1>
   <div class='line'><p class='prompt'>${note.prompt}</p></div>
-  <div class='line'><p>${options}</p></div>
+  <div class='line'><p>${note.options}</p></div>
   <div class='line'><audio controls><source src='resources/audio/${prefix}.mp3' type='audio/mpeg'></audio><br/></div>
   <div class='line'><img src='resources/img/${prefix}.png'></img></div>`;
   back.innerHTML = `
