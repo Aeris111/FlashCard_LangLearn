@@ -189,7 +189,7 @@ li.active-link div::before {
   font-size: 1rem;
 }
 
-.back .prompt{
+.back .prompt, .back .prompt span{
   color: gray;
 }
 
